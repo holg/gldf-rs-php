@@ -13,8 +13,10 @@ on MacOS wit Homebrew:
 cp target/release/libgldf_rs_php.dylib /opt/homebrew/lib/php/pecl/20220829/libgldf_rs_php.so
 ```
 
+add / enable the extension in php.ini:
 
-
+```
+extension=/opt/homebrew/lib/php/pecl/20220829/libgldf_php.so 
 ```
 <?php
 $gldf_path = "tests/data/test.gldf";
