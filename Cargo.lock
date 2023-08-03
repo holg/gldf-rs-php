@@ -152,14 +152,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "gldf-php"
-version = "0.1.0"
-dependencies = [
- "gldf-rs",
- "phper",
-]
-
-[[package]]
 name = "gldf-rs"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -170,6 +162,14 @@ dependencies = [
  "yaserde",
  "yaserde_derive",
  "zip",
+]
+
+[[package]]
+name = "gldf_rs_php"
+version = "0.1.0"
+dependencies = [
+ "gldf-rs",
+ "phper",
 ]
 
 [[package]]
