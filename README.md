@@ -1,4 +1,4 @@
-# gldf-rs-python
+# gldf-rs-php
 WIP php extenson and bindings for the gldf-rs rust library
 
 create the library:
