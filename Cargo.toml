@@ -1,7 +1,13 @@
 [package]
 name = "gldf_rs_php"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
+authors = ["Holger Trahe<trahe@mac.com>"]
+documentation = "https://docs.rs/gldf-rs/"
+description = "GLDF (General Lighting Data Format) parser and writer for Rust, specifically for the Rust/WASM target as such designed for JSON format"
+repository = "https://github.com/holg/gldf-rs"
+homepage = "https://github.com/holg/gldf-rs"
+license = "GPL-3.0-or-later"
 [lib]
 crate-type = ["lib", "cdylib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
